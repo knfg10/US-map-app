@@ -120,7 +120,7 @@ public class Weather extends Activity {
 		}
 
 		// call AsynTask to perform network operation on separate thread
-		new HttpAsyncTask().execute("http://api.weatherunlocked.com/api/current/"+TestLat+","+TestLon+"?app_id=29709a90&app_key=1815396e32dcfdaa3d4435b4e1765d14");
+		new HttpAsyncTask().execute("http://api.weatherunlocked.com/api/current/"+TestLat+","+TestLon+"?app_id=ADD_ID&app_key=ADD_KEY");
 	}
 
 
